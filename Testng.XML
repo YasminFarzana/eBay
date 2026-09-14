@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+    <listeners>
+        <listener class-name="Listener"></listener>
+    </listeners>
+
+    <test name="web">
+        <classes>
+            <class name="HomeTest"></class>
+            <class name="ActionTest"></class>
+            <class name="AlertTest"></class>
+            <class name="containsTest"></class>
+            <class name="DropDownTest"></class>
+            <class name="enabledTest"></class>
+            <class name="ExtensionsTest"></class>
+            <class name="iframeTest"></class>
+            <class name="SeleniumBasicTest"></class>
+            <class name="tabTest"></class>
+            <class name="webelementsTest"></class>
+            <class name="WebElementTest"></class>
+        </classes>
+    </test>
+</suite>
